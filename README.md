@@ -34,4 +34,7 @@ WritingSRT.py
 
 然后 SRT 文件就完成了……大概吧。
 
+可以用 ffmpeg 将 SRT 文件与视频文件结合
+ffmpeg -i (视频路径) -vf (SRT 路径) 输出文件名.对应后缀
+
 a very simple py code for SRT file
